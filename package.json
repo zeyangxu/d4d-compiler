@@ -1,0 +1,27 @@
+{
+  "name": "d4d",
+  "version": "1.0.0",
+  "description": "Product design starts from the designer, it would be better to generate template code right after designing, it is faster to do front end development if the widget is ready to use",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "watch": "tsc -w",
+    "clean": "rm -rf ./dist",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/lodash": "^4.14.147",
+    "@types/node": "^12.12.8",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}

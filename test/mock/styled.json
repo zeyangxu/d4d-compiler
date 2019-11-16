@@ -1,0 +1,19 @@
+{
+  "wrapper": {},
+  "blocks" : [
+    {
+      "name": "Block1",
+      "css": {
+        "background-color": "pink",
+        "color": "black"
+      }
+    },
+    {
+      "name": "Block2",
+      "css": {
+        "background-color": "blue",
+        "color": "black"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "tree": [
+    {
+      "blockName": "Block2",
+      "children": [
+        {
+          "blockName": "Block1",
+          "children": []
+        },
+        "Hello World"
+      ]
+    },
+    {
+      "blockName": "Block1",
+      "children": ["zebxu"]
+    }
+  ],
+  "blocks" : [
+    {
+      "name": "Block1",
+      "type": "styled",
+      "css": {
+        "background-color": "pink",
+        "color": "black"
+      }
+    },
+    {
+      "name": "Block2",
+      "type": "styled",
+      "css": {
+        "background-color": "blue",
+        "color": "black"
+      }
+    }
+  ]
+}

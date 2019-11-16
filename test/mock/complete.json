@@ -1,0 +1,40 @@
+{
+  "name": "FirstWidget",
+  "version": 1573766132510,
+  "wrapper": {},
+  "tree": [
+    {
+      "blockName": "Block2",
+      "children": [
+        {
+          "blockName": "Block1",
+          "children": ["${content1}"]
+        },
+        "Hello World"
+      ]
+    },
+    {
+      "blockName": "Block1",
+      "children": ["${content2}"]
+    }
+  ],
+  "variables": ["content1", "content2", "color"],
+  "blocks" : [
+    {
+      "name": "Block1",
+      "type": "styled",
+      "css": {
+        "background-color": "${color}",
+        "color": "black"
+      }
+    },
+    {
+      "name": "Block2",
+      "type": "styled",
+      "css": {
+        "background-color": "blue",
+        "color": "black"
+      }
+    }
+  ]
+}
