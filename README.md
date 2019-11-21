@@ -24,13 +24,13 @@ import ...
 
 class WidgetName extends Component 
 {
-	const styled1 = styled.div``
-	const styled2 = styled.div``
-	const styled3 = styled.div``
+  const styled1 = styled.div``
+  const styled2 = styled.div``
+  const styled3 = styled.div``
 
-	const Wrapper = styled.div``
+  const Wrapper = styled.div``
 	
-	render() {
+  render() {
     return(
       <Wrapper>
         <styled1 />
