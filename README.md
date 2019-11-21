@@ -124,16 +124,16 @@ const _Wrapper = styled.div`
 export default function FirstWidget (props) {
   return(
     <Wrapper>
-			<Block2>
-				<Block1>
-					{props.content1}
-				</Block1>
-				Hello World
-			</Block2>
-			<Block1>
-				{props.content2}
-			</Block1>
-		</Wrapper>
+      <Block2>
+        <Block1>
+          {props.content1}
+        </Block1>
+        Hello World
+      </Block2>
+      <Block1>
+        {props.content2}
+      </Block1>
+    </Wrapper>
   )
 }
 
